@@ -69,9 +69,11 @@ header div{
 }
 
 .footer{
-    background-color: #242222;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.226);
+    color: #070707;
     padding: 20px 0;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .social-icons{
@@ -86,11 +88,17 @@ li{
 }
 
 a{
-    color: #fff;
+    color: #070707 ;
 }
 
+a:hover{
+    color: #242222 !important;
+}
+
+
 i{
-    font-size: 20px;
+    font-size: 30px;
+    
 }
 
 
