@@ -68,6 +68,30 @@ header div{
     }
 }
 
+.footer{
+    background-color: #242222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a{
+    color: #fff;
+}
+
+i{
+    font-size: 20px;
+}
 
 
 
