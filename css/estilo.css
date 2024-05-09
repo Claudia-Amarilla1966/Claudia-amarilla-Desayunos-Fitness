@@ -68,6 +68,38 @@ header div{
     }
 }
 
+
+
+
+
+
+/* Pagina inicio-inicio */
+/* navbar inicio */
+.navbar{
+    background-color:  rgba(0, 0, 0, 0.226);
+    border-radius:2px;
+    border: 1px solid rgba(31, 28, 28, 0.148);
+}
+
+.nav-link{
+    color: #070707 !important;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px  #ebe5e5;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: rgb(55, 36, 15)!important;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+/* navbar final */
+
+/* footer inicio */
 .footer{
     background-color: rgba(0, 0, 0, 0.226);
     color: #070707;
@@ -100,36 +132,8 @@ i{
     font-size: 30px;
     
 }
+/* footer final */
 
-
-
-
-
-/* Pagina inicio-inicio */
-/* navbar inicio */
-.navbar{
-    background-color:  rgba(0, 0, 0, 0.226);
-    border-radius:2px;
-    border: 1px solid rgba(31, 28, 28, 0.148);
-}
-
-.nav-link{
-    color: #070707 !important;
-    text-transform: uppercase;
-    text-shadow: 0 0 5px  #ebe5e5;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.nav-link:hover{
-    color: rgb(55, 36, 15)!important;
-}
-
-.collapse{
-    display: flex;
-    justify-content: center;
-}
-/* navbar final */
 
 /* Pagina Inicio:aside inicio */
 .row{
