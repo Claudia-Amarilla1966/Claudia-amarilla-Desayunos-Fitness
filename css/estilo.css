@@ -97,6 +97,10 @@ header div{
     display: flex;
     justify-content: center;
 }
+
+.navbar-toggler {
+    background-color:#242222; 
+}
 /* navbar final */
 
 /* footer inicio */
@@ -196,7 +200,7 @@ aside h2, aside h3 {
     font-weight: bold;
     
 }
-.d-f  p{
+.desayunos-fitness  p{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -369,6 +373,7 @@ aside h2, aside h3 {
     .recetas .col {
         flex-basis: 100%;
         margin: 5px 0;
+        
     }
 }
 /*paginas recetas fin */
