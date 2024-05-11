@@ -326,10 +326,136 @@ aside h2, aside h3 {
 
 
 /* pagina Recetas-inicio */
-.recetas {
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero{
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-desayuno{
+    padding: 3rem;
+}
+
+.hero-imagen-portada{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.hero-desayuno h2{
+    font-size: 2.5rem;
+    color: #070707;
+    font-weight: bold;
+
+}
+
+.hero-desayuno p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    margin:10px 0 ;
+}
+
+.recetas-desayuno{
+    padding:20px ;
+    box-shadow: 0px 0px 5px  5px rgb(73, 61, 61);
+    margin-top: 10px;
+}
+
+
+.texto-negro{
+    color:#070707;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color:#070707;
+    
+}
+
+
+.recetas-desayuno img{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    display: block;
+    transition: all 0.2s ease;
+    
+}
+
+.recetas-contenedor{
+    padding: 50px;
+    margin-bottom: 15px;
+    
+}
+.recetas{
+    position: relative;
+}
+.informacion{
+    transition:all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.informacion p{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom:0 ;
+}
+
+.recetas:hover img{
+    opacity:0.1 ;
+}
+.recetas:hover .informacion{
+    opacity: 1;
+}
+
+
+.informacion i{
+    color: #070707;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+@media screen and (max-width: 400px){
+    .informacion p{
+        font-size:  8px; 
+    }
+
+    .informacion i{
+        font-size:8px;
+    }
+
+    .seccion-titulo{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .recetas {
     padding: 20px;
     margin-top: 20px;
     width: 100%;
+    background-color: red;
 }
 
 .recetas .container{
@@ -354,29 +480,7 @@ aside h2, aside h3 {
 }
 
 
-.recetas .col {
-    flex: 1;
-    margin: 10px;
-    
-}
-.recetas .col img {
-    width: 100%;
-    border-radius: 10px;
-    
-    
-}
-.recetas .col h3 {
-    margin-top: 10px;
-    color: #333;
-}
-@media screen and (max-width: 320px) {
-    .recetas .col {
-        flex-basis: 100%;
-        margin: 5px 0;
-        
-    }
-}
-/*paginas recetas fin */
+
 
 /* PAGINA CUIDADOS */
 .div-cuidados{
