@@ -113,7 +113,6 @@ header div {
     display: flex;
     justify-content: center;
 }
-
 /* navbar final */
 
 /* Pagina Inicio:aside inicio */
@@ -219,7 +218,6 @@ aside h3 {
     font-size: 12px;
     font-weight: bold;
 }
-
 /* Aside Final */
 
 /* Section Inicio */
@@ -236,7 +234,6 @@ aside h3 {
     color: #070707;
 }
 
-
 .main p {
     padding: 20px;
     text-align: justify;
@@ -244,7 +241,6 @@ aside h3 {
     line-height: 2;
 
 }
-
 
 .main img {
     width: 100%;
@@ -259,87 +255,84 @@ aside h3 {
     padding: 10px 10px;
     border-radius: 5px;
     border: 1px solid #070707;
-    box-shadow: 2px 2px 5px #242222;
     font-weight: bold;
     margin-left: 20px;
 }
 
 .main .leer-mas:hover {
-    color: #f3f3f3;
-    background-color: #242222;
+    color:#070707;
+    background-color: #6d6565;
 }
-
-#leer-mas {
-    display: block;
-    color: #070707;
-    margin-top: 40px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#leer-mas:hover {
-    color: rgb(105, 62, 31);
-}
-
 /* Pagina Inicio:section final */
 
 /* Pagina Quien soy Inicio*/
-
-.quiensoy {
-    margin-top: 30px;
-    
+.tituloqsoy{
+    font-size: 25px;
+    color:#000000;
+    text-shadow: 0 0 30px#6d6565 ;
+    text-align: center;
+    padding: 15px;
+}
+.container-quiensoy {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px  #a18e8e;
+}
+.container-quiensoy p{
+    text-align: justify;
+    color:#000000;
 }
 
-.container {
+.container- {
     width: 100%;
     padding:20px ;
-    
+    border-radius: 5px;
+    box-shadow: 0 0 35px  #4b2a2a;
 }
 
-.row{
+.rows {
     text-align: center;
-    
 }
 
-h2 {
-    color:#212529 ;
-    
+.rows p{
+    color:#000000;
+    font-size:18px ;
 }
-
-p {
-    color:#212529;
-    
-    
+.rows h3{
+    font-size: 23px;
+    color: #000000;
+    padding: 10px;
 }
 
 .div-audio {
     margin-top: 20px;
 }
 
-
 video {
     max-width: 80%; 
     height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 35px  #4b2a2a;
 }
 
-
 a {
-    
+    color:#070707;
     text-decoration: none;
-    
+    font-size: 16px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
 }
 
 a:hover {
-    color: #005580;
+    color: #4b2a2a;
 }
-
 /* Pagina Quien soy final */
 
 
 /* pagina Recetas-inicio */
-
+.rowr {
+    text-align: center;
+}
 section {
     padding: 20px 0;
 }
@@ -347,57 +340,60 @@ section {
 .img-fluid {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    box-shadow: 2px  2px 20px rgb(77, 75, 75);
+    margin-bottom: 20px;
+} 
+
+.recetas1{
+    color:#070707;
+    /* font-weight: 600; */
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
-h3 {
-    color: #333;
+.recetas2{
+    color: #070707;
+    font-weight: 600px;
+    font-size: 22px;
+    text-shadow: 1px 1px 5px rgb(52, 49, 49);
     text-align: center;
 }
 
-p {
-    color: #666;
+.recetas{
+    color: #070707;
+    font-weight: 800px;
+    font-size: 16px;
     text-align: justify;
 }
-
-
 /*paginas recetas fin */
 
 /* PAGINA CUIDADOS */
 .div-cuidados {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     padding: 30px;
-    text-align: center;
-    border-radius: 10px;
-    border: 2px solid rgb(105, 102, 102);
-    box-shadow: 0 0 45px rgb(48, 45, 45);
-
+    
 }
 
 .h2-cuidados {
-    /* width: 100%; */
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500px;
+    color: #000000;
     text-align: center;
-    text-decoration: underline;
     text-transform: uppercase;
     padding: 10px;
-    letter-spacing: 2px;
-    background-color: grey;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgb(58, 56, 56);
-}
-
-.p-cuidados {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 15px;
+    box-shadow: 0 0 30px rgb(66, 44, 44);
+    background-color: #d9cece;
     margin: 15px;
-    text-align: justify;
-    letter-spacing: 2;
+    border-radius: 10px;
 }
 
-
+.h2-cuidados:hover {
+    color:rgb(66, 44, 44);
+    background-color:#4b2a2a6b;
+}
 
 ul,
 li {
@@ -410,17 +406,61 @@ li {
     list-style-type: none;
 }
 
+.container-cuidados{
+    display: flex;
+}
+.p-cuidados {
+    font-size: 20px;
+    font-weight: bold;
+    padding:20px;
+    margin: 10px 10px ;
+    text-align: justify;
+    background-color:#d9cece ;
+    box-shadow: 0 0 30px rgb(66, 44, 44);
+    font-style: italic;
+    border-radius: 10px;
+}
+.p-cuidados:hover{
+    color:rgb(66, 44, 44) ;
+    background-color:#4b2a2a6b ;
+}
+
 /* FIN DE PAGINA CUIDADOS */
 
+/* Pagina contactos inicio */
+.container-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    color:#070707 ;
+    background: rgba(0, 0, 0, 0.141);
+    border-radius: 15px;
+    box-shadow: 0 0 30px black;
+}
+.container-contacto:hover{
+    background-color:rgba(0, 0, 0, 0.655) ;
+    color: #2755c2;
+}
+
+.h2-contacto {
+    font-size: 25px;
+    margin: 15px;
+}
+.p-contacto {
+    font-size: 18px;
+    margin: 20px;
+}
 
 /* FORMULARIO */
-
 .form {
     width: 50%;
     min-width: 300px;
     background: rgba(0, 0, 0, 0.491);
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 20px;
     padding: 20px;
     color: #2755c2;
 }
@@ -450,7 +490,6 @@ li {
 .form-text::placeholder {
     font-size: 1, 4rem;
 }
-
 
 .consulta {
     text-align: center;
@@ -482,10 +521,9 @@ li {
 .enviar:hover {
     background-color: #3364d6c3;
 }
-
+/* Fin de pagina contacto */
 
 /* Pie de pagina (footer) */
-
 .footer {
     background-color:rgba(0, 0, 0, 0.226);
     padding: 20px 0;
@@ -525,8 +563,9 @@ li {
     font-size: 14px;
     color: #070707;
     font-weight: bold;
+    text-align: center;
 }
-
+/* Fin del Footer */
 
 
 
