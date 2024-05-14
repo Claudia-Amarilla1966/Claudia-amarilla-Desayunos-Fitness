@@ -57,14 +57,28 @@ header div {
   margin: 5px 2% 5px;
   border-radius: 20px;
 }
+@media (max-width: 320px) {
+  header {
+    padding: 30px;
+    height: auto;
+  }
 
-@media screen and (max-width: 320px) {
+  header h1 {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  header p {
+    margin: 5px;
+    font-size: 15px;
+  }
   header div {
     padding: 5px;
     margin: 2px 1% 2px;
     border-radius: 10px;
   }
 }
+
 
 /* Navbar inicio */
 .navbar {
