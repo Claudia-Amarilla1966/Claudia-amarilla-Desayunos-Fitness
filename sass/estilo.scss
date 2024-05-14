@@ -51,7 +51,7 @@ $background-color-div: rgba(0, 0, 0, 0.4);
 $padding-div: 10px;
 $margin-div: 5px 2% 5px;
 $border-radius-div: 20px;
-// pagina inicio
+// Página inicio
 // header
 header {
     padding: $padding-header;
@@ -93,7 +93,7 @@ $border-radius-div-small-screen: 10px;
     }
 }
 
-// navbar inicio
+// Navbar inicio
 $background-color-navbar: rgba(0, 0, 0, 0.226);
 $border-radius-navbar: 2px;
 $border-navbar: 1px solid rgba(31, 28, 28, 0.148);
@@ -128,9 +128,9 @@ $justify-content-collapse: center;
     display: $display-collapse;
     justify-content:    $justify-content-collapse;
 }
-// navbar final
+// Navbar final
 
-// pagina inicio:aside inicio
+// Aside inicio
 $display-row: flex;
 $flex-wrap-row: wrap;
 $margin-row: auto;
@@ -276,9 +276,9 @@ aside h3 {
   font-size: $font-size-h4-i-link;
   font-weight: $font-weight-h4-i-link;
 }
-// pagina inicio:aside final
+// Aside final
 
-// section Inicio
+//Section Inicio
 $flex-main: 70%;
 $text-transform-h2-main: uppercase;
 $margin-top-h2-main: 18px;
@@ -345,7 +345,7 @@ $background-color-leer-mas-hover-main: #6d6565;
 }
 // section final
 
-// pagina Quien soy Inicio
+// Página Quien soy Inicio
 $font-size-tituloqsoy: 25px;
 $color-tituloqsoy: #000000;
 $text-shadow-tituloqsoy: 0 0 30px #6d6565;
@@ -500,7 +500,7 @@ section {
   font-size: $font-size-recetas;
   text-align: $text-align-recetas;
 }
-// Páginas Recetas fin
+// Páginas Recetas final
 
 // Página Cuidados inicio
 $height-div-cuidados: auto;
@@ -592,9 +592,9 @@ li {
     background-color: $background-color-p-cuidados-hover;
   }
 }
-// Páginas cuidados final
+// Páginas Cuidados final
 
-// Página contactos inicio
+// Página Contactos inicio
 $display-container-contacto: flex;
 $justify-content-container-contacto: center;
 $align-items-container-contacto: center;
@@ -815,3 +815,4 @@ $text-align-derechos-de-autor: center;
   font-weight: $font-weight-derechos-de-autor;
   text-align: $text-align-derechos-de-autor;
 }
+// Footer final

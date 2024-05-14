@@ -29,7 +29,8 @@ body {
   font-family: "Montserrat", sans-serif;
   background-image: url(./../imagenes/backgroun.jpg);
 }
-
+/* Página inicio  */
+/* header */
 header {
   padding: 60px;
   text-align: center;
@@ -64,6 +65,8 @@ header div {
     border-radius: 10px;
   }
 }
+
+/* Navbar inicio */
 .navbar {
   background-color: rgba(0, 0, 0, 0.226);
   border-radius: 2px;
@@ -85,7 +88,9 @@ header div {
   display: flex;
   justify-content: center;
 }
+/* Navar final */
 
+/* Aside inicio */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -181,7 +186,9 @@ aside h3 {
   font-size: 12px;
   font-weight: bold;
 }
+/* Aside final */
 
+/* Section inicio */
 .main {
   flex: 70%;
 }
@@ -217,7 +224,9 @@ aside h3 {
   color: #070707;
   background-color: #6d6565;
 }
+/* Section final */
 
+/* Página Quien soy inicio */
 .tituloqsoy {
   font-size: 25px;
   color: #000000;
@@ -277,7 +286,9 @@ a {
 a:hover {
   color: #4b2a2a;
 }
+/* Página Quien soy final */
 
+/* Página Recetas inicio */
 .rowr {
   text-align: center;
 }
@@ -314,7 +325,9 @@ section {
   font-size: 16px;
   text-align: justify;
 }
+/* Páginas Recetas final */
 
+/* Página Cuidados inicio */
 .div-cuidados {
   height: auto;
   padding: 30px;
@@ -367,7 +380,9 @@ li {
   color: rgb(66, 44, 44);
   background-color: rgba(75, 42, 42, 0.4196078431);
 }
+/* Página Cuidados final */
 
+/* Página Contacto inicio */
 .container-contacto {
   display: flex;
   justify-content: center;
@@ -393,7 +408,9 @@ li {
   font-size: 18px;
   margin: 20px;
 }
+/* Página Contacto final*/
 
+/* Formulario inicio*/
 .form {
   width: 50%;
   min-width: 300px;
@@ -459,7 +476,9 @@ li {
 .enviar:hover {
   background-color: rgba(51, 100, 214, 0.7647058824);
 }
+/* Formulario final */
 
+/* Footer ininio */
 .footer {
   background-color: rgba(0, 0, 0, 0.226);
   padding: 20px 0;
@@ -499,5 +518,6 @@ li {
   font-weight: bold;
   text-align: center;
 }
+/* Footer final */
 
 /*# sourceMappingURL=estilo.css.map */
