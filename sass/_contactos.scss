@@ -1,0 +1,17 @@
+// Página contactos
+.container-contacto {
+    display: $display-container-contacto;
+    justify-content: $justify-content-container-contacto;
+    align-items: $align-items-container-contacto;
+    padding: $padding-container-contacto;
+    margin-top: $margin-top-container-contacto;
+    color: $color-container-contacto;
+    background: $background-container-contacto;
+    border-radius: $border-radius-container-contacto;
+    box-shadow: $box-shadow-container-contacto;
+    
+    &:hover {
+      background-color: $background-color-container-contacto-hover;
+      color: $color-container-contacto-hover;
+    }
+  }

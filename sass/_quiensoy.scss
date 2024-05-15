@@ -1,0 +1,24 @@
+
+// Página quien soy
+
+.container- {
+    width: $width-container;
+    padding: $padding-container;
+    border-radius: $border-radius-container;
+    box-shadow: $box-shadow-container;
+}
+
+.rows {
+    text-align: $text-align-rows;
+
+    p {
+      color: $color-p-rows;
+      font-size: $font-size-p-rows;
+    }
+
+    h3 {
+      font-size: $font-size-h3-rows;
+      color: $color-h3-rows;
+      padding: $padding-h3-rows;
+    }
+}

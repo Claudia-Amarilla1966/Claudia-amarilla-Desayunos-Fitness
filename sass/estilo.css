@@ -158,7 +158,8 @@ aside h3 {
   width: 100%;
   height: 120px;
   margin-bottom: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 
@@ -202,7 +203,8 @@ aside h3 {
 .main img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 .main .leer-mas {
@@ -427,6 +429,9 @@ li {
   border-bottom: 2px solid #2755c2;
   color: #fff;
 }
+.form-text::-moz-placeholder {
+  font-size: 1, 4rem;
+}
 .form-text::placeholder {
   font-size: 1, 4rem;
 }
@@ -647,6 +652,4 @@ body {
   color: #070707;
   font-weight: bold;
   text-align: center;
-}
-
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */

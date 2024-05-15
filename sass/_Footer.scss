@@ -1,0 +1,42 @@
+// Footer
+.footer {
+    background-color: $background-color-footer;
+    padding: $padding-footer;
+    color: $color-footer;
+    box-shadow: $box-shadow-footer;
+  }
+  
+  .footer-logo {
+    width: $width-footer-logo;
+    height: $height-footer-logo;
+  }
+  
+  .footer-texto {
+    margin: $margin-footer-texto;
+    font-size: $font-size-footer-texto;
+    line-height: $line-height-footer-texto;
+    color: $color-footer-texto;
+    font-weight: $font-weight-footer-texto;
+  }
+  
+  .iconos-redes-sociales {
+    margin: $margin-iconos-redes-sociales;
+    
+    a {
+      color: $color-a-iconos-redes-sociales;
+      margin: $margin-a-iconos-redes-sociales;
+      font-size: $font-size-a-iconos-redes-sociales;
+      text-decoration: $text-decoration-a-iconos-redes-sociales;
+      
+      &:hover {
+        color: $color-a-iconos-redes-sociales-hover;
+      }
+    }
+  }
+  
+  .derechos-de-autor {
+    font-size: $font-size-derechos-de-autor;
+    color: $color-derechos-de-autor;
+    font-weight: $font-weight-derechos-de-autor;
+    text-align: $text-align-derechos-de-autor;
+}

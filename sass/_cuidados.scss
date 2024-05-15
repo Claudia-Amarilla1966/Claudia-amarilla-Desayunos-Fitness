@@ -1,0 +1,19 @@
+// Páginas Cuidados
+.h2-cuidados {
+    font-size: $font-size-h2-cuidados;
+    font-style: $font-style-h2-cuidados;
+    font-weight: $font-weight-h2-cuidados;
+    color: $color-h2-cuidados;
+    text-align: $text-align-h2-cuidados;
+    text-transform: $text-transform-h2-cuidados;
+    padding: $padding-h2-cuidados;
+    box-shadow: $box-shadow-h2-cuidados;
+    background-color: $background-color-h2-cuidados;
+    margin: $margin-h2-cuidados;
+    border-radius: $border-radius-h2-cuidados;
+    
+    &:hover {
+      color: $color-h2-cuidados-hover;
+      background-color: $background-color-h2-cuidados-hover;
+    }
+  }

@@ -33,6 +33,7 @@ body {
     background-image: url(./../imagenes/backgroun.jpg);
 
 }
+// Variables de header
 $padding-header: 60px;
 $text-align-header: center;
 $background-image-header: url(./../imagenes/image-header-1.jpg);
@@ -816,3 +817,12 @@ $text-align-derechos-de-autor: center;
   text-align: $text-align-derechos-de-autor;
 }
 // Footer final
+
+// Import
+@import"_inicio";
+@import"_recetas";
+@import"_quiensoy";
+@import"_cuidados";
+@import"_contactos";
+@import"_footer";
+@import"_variables";
