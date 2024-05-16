@@ -1,24 +1,68 @@
 
 // Página quien soy
 
+.tituloqsoy {
+  font-size: $font-size-tituloqsoy;
+  color: $color-tituloqsoy;
+  text-shadow: $text-shadow-tituloqsoy;
+  text-align: $text-align-tituloqsoy;
+  padding: $padding-tituloqsoy;
+}
+
+.container-quiensoy {
+  width: $width-container-quiensoy;
+  border-radius: $border-radius-container-quiensoy;
+  box-shadow: $box-shadow-container-quiensoy;
+  
+  p {
+    text-align: $text-align-p-container-quiensoy;
+    color: $color-p-container-quiensoy;
+  }
+}
+
 .container- {
-    width: $width-container;
-    padding: $padding-container;
-    border-radius: $border-radius-container;
-    box-shadow: $box-shadow-container;
+  width: $width-container;
+  padding: $padding-container;
+  border-radius: $border-radius-container;
+  box-shadow: $box-shadow-container;
 }
 
 .rows {
-    text-align: $text-align-rows;
-
-    p {
-      color: $color-p-rows;
-      font-size: $font-size-p-rows;
-    }
-
-    h3 {
-      font-size: $font-size-h3-rows;
-      color: $color-h3-rows;
-      padding: $padding-h3-rows;
-    }
+  text-align: $text-align-rows;
+  
+  p {
+    color: $color-p-rows;
+    font-size: $font-size-p-rows;
+  }
+  
+  h3 {
+    font-size: $font-size-h3-rows;
+    color: $color-h3-rows;
+    padding: $padding-h3-rows;
+  }
 }
+
+.div-audio {
+  margin-top: $margin-top-div-audio;
+}
+
+video {
+  max-width: $max-width-video;
+  height: $height-video;
+  border-radius: $border-radius-video;
+  box-shadow: $box-shadow-video;
+}
+
+a {
+  color: $color-a;
+  text-decoration: $text-decoration-a;
+  font-size: $font-size-a;
+  font-family: $font-family-a;
+  font-weight: $font-weight-a;
+  
+  &:hover {
+    color: $color-a-hover;
+  }
+}
+// Página Quien soy final
+

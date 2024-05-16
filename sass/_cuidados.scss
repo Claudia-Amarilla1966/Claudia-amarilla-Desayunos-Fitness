@@ -1,19 +1,56 @@
-// Páginas Cuidados
+// Páginas Cuidados inicio
+.div-cuidados {
+  height: $height-div-cuidados;
+  padding: $padding-div-cuidados;
+}
+
 .h2-cuidados {
-    font-size: $font-size-h2-cuidados;
-    font-style: $font-style-h2-cuidados;
-    font-weight: $font-weight-h2-cuidados;
-    color: $color-h2-cuidados;
-    text-align: $text-align-h2-cuidados;
-    text-transform: $text-transform-h2-cuidados;
-    padding: $padding-h2-cuidados;
-    box-shadow: $box-shadow-h2-cuidados;
-    background-color: $background-color-h2-cuidados;
-    margin: $margin-h2-cuidados;
-    border-radius: $border-radius-h2-cuidados;
-    
-    &:hover {
-      color: $color-h2-cuidados-hover;
-      background-color: $background-color-h2-cuidados-hover;
-    }
+  font-size: $font-size-h2-cuidados;
+  font-style: $font-style-h2-cuidados;
+  font-weight: $font-weight-h2-cuidados;
+  color: $color-h2-cuidados;
+  text-align: $text-align-h2-cuidados;
+  text-transform: $text-transform-h2-cuidados;
+  padding: $padding-h2-cuidados;
+  box-shadow: $box-shadow-h2-cuidados;
+  background-color: $background-color-h2-cuidados;
+  margin: $margin-h2-cuidados;
+  border-radius: $border-radius-h2-cuidados;
+  
+  &:hover {
+    color: $color-h2-cuidados-hover;
+    background-color: $background-color-h2-cuidados-hover;
   }
+}
+
+ul,
+li {
+  padding: $padding-ul-li;
+  margin: $margin-ul-li;
+  text-align: $text-align-ul-li;
+  font-size: $font-size-ul-li;
+  font-weight: $font-weight-ul-li;
+  list-style-type: $list-style-type-ul-li;
+}
+
+.container-cuidados {
+  display: $display-container-cuidados;
+}
+
+.p-cuidados {
+  font-size: $font-size-p-cuidados;
+  font-weight: $font-weight-p-cuidados;
+  padding: $padding-p-cuidados;
+  margin: $margin-p-cuidados;
+  text-align: $text-align-p-cuidados;
+  background-color: $background-color-p-cuidados;
+  box-shadow: $box-shadow-p-cuidados;
+  font-style: $font-style-p-cuidados;
+  border-radius: $border-radius-p-cuidados;
+  
+  &:hover {
+    color: $color-p-cuidados-hover;
+    background-color: $background-color-p-cuidados-hover;
+  }
+}
+// Páginas Cuidados final

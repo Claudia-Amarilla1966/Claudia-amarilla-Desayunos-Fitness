@@ -1,4 +1,4 @@
-// Página contactos
+// Página contactos inicio
 .container-contacto {
     display: $display-container-contacto;
     justify-content: $justify-content-container-contacto;
@@ -15,3 +15,84 @@
       color: $color-container-contacto-hover;
     }
   }
+
+  .h2-contacto {
+    font-size: $font-size-h2-contacto;
+    margin: $margin-h2-contacto;
+  }
+  
+  .p-contacto {
+    font-size: $font-size-p-contacto;
+    margin: $margin-p-contacto;
+  }
+
+  // formulario inicio
+  .form {
+    width: $width-form;
+    min-width: $min-width-form;
+    background: $background-form;
+    margin: $margin-form;
+    margin-top: $margin-top-form;
+    margin-bottom: $margin-bottom-form;
+    padding: $padding-form;
+    color: $color-form;
+  }
+  
+  .form-input {
+    width: $width-form-input;
+    height: $height-form-input;
+    background: $background-form-input;
+    padding: $padding-form-input;
+    outline: none;
+    border: $border-form-input;
+    border-bottom: $border-bottom-form-input;
+    margin-bottom: $margin-bottom-form-input;
+    color: $color-form-input;
+  }
+  
+  .form-text {
+    width: $width-form-text;
+    background: $background-form-text;
+    padding: $padding-form-text;
+    outline: none;
+    border: $border-form-text;
+    border-bottom: $border-bottom-form-text;
+    color: $color-form-text;
+    
+    &::placeholder {
+      font-size: $font-size-placeholder-form-text;
+    }
+  }
+  
+  .consulta {
+    text-align: $text-align-consulta;
+    color: $color-consulta;
+    padding-bottom: $padding-bottom-consulta;
+    font-weight: $font-weight-consulta;
+  }
+  
+  .form-label {
+    display: $display-form-label;
+    font-size: $font-size-form-label;
+    font-weight: $font-weight-form-label;
+  }
+  
+  .enviar {
+    width: $width-enviar;
+    height: $height-enviar;
+    background: $background-enviar;
+    padding: $padding-enviar;
+    outline: none;
+    border: $border-enviar;
+    background: $background-enviar;
+    color: $color-enviar;
+    text-align: $text-align-enviar;
+    margin: $margin-enviar;
+    cursor: $cursor-enviar;
+    
+    &:hover {
+      background-color: $background-color-enviar-hover;
+    }
+  }
+  //Formulario final
+  //Página Contacto final 

@@ -13,7 +13,43 @@ body {
 
 }
 
-// Navbar
+// Página inicio
+// header
+header {
+    padding: $padding-header;
+    text-align: $text-align-header;
+    background-image:   $background-image-header;
+    background-size: $background-size-header;
+    height: $height-header;
+    background-position: $background-position-header;
+    border-radius: $border-radius-header;
+    width: $width-header;
+    h1 {
+    font-size: $font-size-h1;
+    margin: $margin-h1;
+    color: $color-h1;
+    }
+    p {
+    margin: $margin-p;
+    font-size: $font-size-p;
+    color: $color-p;
+    }
+    div {
+    background-color: $background-color-div;
+    padding: $padding-div;
+    margin: $margin-div;
+    border-radius: $border-radius-div;
+    }
+}
+
+@media screen and (max-width: $media-query-max-width) {
+    header div {
+    padding: $padding-div-small-screen;
+    margin: $margin-div-small-screen;
+    border-radius: $border-radius-div-small-screen;
+    }
+}
+// Navbar inicio
 .navbar {
     background-color:   $background-color-navbar;
     border-radius: $border-radius-navbar;
@@ -26,13 +62,158 @@ body {
     text-shadow: $text-shadow-nav-link;
     font-size: $font-size-nav-link;
     font-weight: $font-weight-nav-link;
-
-    &:hover {
-    color: $color-nav-link-hover;
-    }
+      &:hover {
+      color: $color-nav-link-hover;
+      }
 }
 
 .collapse {
     display: $display-collapse;
     justify-content:    $justify-content-collapse;
 }
+// Navbar final
+
+// Aside inicio
+.row {
+    display: $display-row;
+    flex-wrap: $flex-wrap-row;
+    margin: $margin-row;
+}
+
+aside {
+    flex: $flex-aside;
+    padding-top: $padding-top-aside;
+}
+
+.flip-card-inner {
+    text-align: $text-align-flip-card-inner;
+    transition: $transition-flip-card-inner;
+    transform-style: $transform-style-flip-card-inner;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: $transform-flip-card-hover;
+}
+
+.flip-card-front,
+.flip-card-back {
+  backface-visibility: $backface-visibility-flip-card;
+  -webkit-backface-visibility: $backface-visibility-flip-card;
+}
+
+.flip-card-back {
+  position: $position-flip-card-back;
+  top: $top-flip-card-back;
+  width: $width-flip-card-back;
+  height: $height-flip-card-back;
+  background-color: $background-color-flip-card-back;
+  transform: $transform-flip-card-back;
+  color: $color-flip-card-back;
+  border-radius: $border-radius-flip-card-back;
+  padding: $padding-flip-card-back;
+  font-size: $font-size-flip-card-back;
+}
+
+@media screen and (max-width: $media-query-max-width) {
+  .flip-card-back {
+    font-size: $font-size-flip-card-back-small-screen;
+  }
+}
+
+.flip-card-back h2 {
+  color: $color-h2-flip-card-back;
+  margin-top: $margin-top-h2-flip-card-back;
+}
+
+.flip-card-inner img {
+  border-radius: $border-radius-img-flip-card-inner;
+}
+
+aside h2,
+aside h3 {
+  color: $color-h2-aside;
+  text-align: $text-align-h2-aside;
+  font-weight: $font-weight-h2-aside;
+}
+
+.d-f p {
+  text-align: $text-align-p-d-f;
+  font-size: $font-size-p-d-f;
+  font-weight: $font-weight-p-d-f;
+}
+
+.i-link img {
+  width: $width-img-i-link;
+  height: $height-img-i-link;
+  margin-bottom: $margin-bottom-img-i-link;
+  object-fit: $object-fit-img-i-link;
+  border-radius: $border-radius-img-i-link;
+}
+
+.i-link h4 {
+  opacity: $opacity-h4-i-link;
+  position: $position-h4-i-link;
+  color: $color-h4-i-link;
+  background-color: $background-color-h4-i-link;
+  padding: $padding-h4-i-link;
+  border-radius: $border-radius-h4-i-link;
+  margin: $margin-h4-i-link;
+  margin-top: $margin-top-h4-i-link;
+  transition: $transition-h4-i-link;
+}
+
+.i-link:hover h4 {
+  opacity: $opacity-h4-i-link-hover;
+}
+
+.i-link h4 {
+  font-size: $font-size-h4-i-link;
+  font-weight: $font-weight-h4-i-link;
+}
+// Aside final
+
+//Section Inicio
+.main {
+  flex: $flex-main;
+  
+  h2 {
+    text-transform: $text-transform-h2-main;
+    margin-top: $margin-top-h2-main;
+    font-size: $font-size-h2-main;
+    font-weight: $font-weight-h2-main;
+    color: $color-h2-main;
+  }
+  
+  p {
+    padding: $padding-p-main;
+    text-align: $text-align-p-main;
+    font-weight: $font-weight-p-main;
+    line-height: $line-height-p-main;
+  }
+  
+  img {
+    width: $width-img-main;
+    height: $height-img-main;
+    object-fit: $object-fit-img-main;
+    border-radius: $border-radius-img-main;
+  }
+  
+  .leer-mas {
+    color: $color-leer-mas-main;
+    text-decoration: $text-decoration-leer-mas-main;
+    padding: $padding-leer-mas-main;
+    border-radius: $border-radius-leer-mas-main;
+    border: $border-leer-mas-main;
+    font-weight: $font-weight-leer-mas-main;
+    margin-left: $margin-left-leer-mas-main;
+    
+      &:hover {
+      color: $color-leer-mas-hover-main;
+      background-color: $background-color-leer-mas-hover-main;
+    }
+  }
+}
+// section final
+
+
+

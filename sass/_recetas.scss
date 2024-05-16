@@ -1,21 +1,38 @@
-// Página recetas
-.recetas1 {
+// Página recetas inicio
+.rowr {
+    text-align: $text-align-rowr;
+  }
+  
+  section {
+    padding: $padding-section;
+  }
+  
+  .img-fluid {
+    width: $width-img-fluid;
+    height: $height-img-fluid;
+    border-radius: $border-radius-img-fluid;
+    box-shadow: $box-shadow-img-fluid;
+    margin-bottom: $margin-bottom-img-fluid;
+  }
+  
+  .recetas1 {
     color: $color-recetas1;
     font-size: $font-size-recetas1;
     text-transform: $text-transform-recetas1;
-}
-
-.recetas2 {
+  }
+  
+  .recetas2 {
     color: $color-recetas2;
     font-weight: $font-weight-recetas2;
     font-size: $font-size-recetas2;
     text-shadow: $text-shadow-recetas2;
     text-align: $text-align-recetas2;
-}
-
-.recetas {
+  }
+  
+  .recetas {
     color: $color-recetas;
     font-weight: $font-weight-recetas;
     font-size: $font-size-recetas;
     text-align: $text-align-recetas;
-}
+  }
+  // Páginas Recetas final
