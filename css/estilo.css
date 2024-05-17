@@ -60,14 +60,6 @@ header div {
   overflow: auto;
 }
 
-@media screen and (max-width: 320px) {
-  header div {
-    padding: 5px;
-    margin: 2px 1% 2px;
-    border-radius: 10px;
-    overflow: auto;
-  }
-}
 .navbar {
   background-color: rgba(0, 0, 0, 0.226);
   border-radius: 2px;
@@ -542,13 +534,6 @@ header div {
   border-radius: 20px;
 }
 
-@media screen and (max-width: 700px) {
-  header div {
-    padding: 5px;
-    margin: 2px 1% 2px;
-    border-radius: 10px;
-  }
-}
 .navbar {
   background-color: rgba(0, 0, 0, 0.226);
   border-radius: 2px;

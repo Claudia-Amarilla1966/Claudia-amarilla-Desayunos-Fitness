@@ -42,24 +42,16 @@ header {
     }
 }
 
-@media screen and (max-width: $media-query-max-width) {
-    header div {
-    padding: $padding-div-small-screen;
-    margin: $margin-div-small-screen;
-    border-radius: $border-radius-div-small-screen;
-    overflow: auto;
-    }
-}
+// @media screen and (max-width: $media-query-max-width) {
+//     header div {
+//     padding: $padding-div-small-screen;
+//     margin: $margin-div-small-screen;
+//     border-radius: $border-radius-div-small-screen;
+//     overflow: auto;
+//     }
+// }
 
-@media screen and (max-width: 320px) {
-  header div {
-    padding: 5px;
-    margin: 2px 1% 2px;
-    border-radius: 10px;
-    overflow: auto;
 
-  }
-}
 // Navbar inicio
 .navbar {
     background-color:   $background-color-navbar;
