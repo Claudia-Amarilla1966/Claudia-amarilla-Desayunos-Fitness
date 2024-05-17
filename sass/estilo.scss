@@ -82,19 +82,12 @@ header {
     }
 }
 
-// $media-query-max-width: 320px;
-// $padding-div-small-screen: 5px;
-// $margin-div-small-screen: 2px 1% 2px;
-// $border-radius-div-small-screen: 10px;
+$media-query-max-width: 320px;
+$padding-div-small-screen: 5px;
+$margin-div-small-screen: 2px 1% 2px;
+$border-radius-div-small-screen: 10px;
 
-// @media screen and (max-width: $media-query-max-width) {
-//     header div {
-//     padding: $padding-div-small-screen;
-//     margin: $margin-div-small-screen;
-//     border-radius: $border-radius-div-small-screen;
-//     overflow: auto;
-//     }
-// }
+
 
 // Navbar inicio
 $background-color-navbar: rgba(0, 0, 0, 0.226);
