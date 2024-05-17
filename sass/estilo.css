@@ -64,6 +64,7 @@ header div {
     padding: 5px;
     margin: 2px 1% 2px;
     border-radius: 10px;
+    overflow: auto;
   }
 }
 .navbar {
@@ -550,6 +551,15 @@ header div {
     padding: 5px;
     margin: 2px 1% 2px;
     border-radius: 10px;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  header div {
+    padding: 5px;
+    margin: 2px 1% 2px;
+    border-radius: 10px;
+    overflow: auto;
   }
 }
 .navbar {
