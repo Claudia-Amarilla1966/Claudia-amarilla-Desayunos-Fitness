@@ -79,6 +79,10 @@ header div {
   border: 1px solid rgba(31, 28, 28, 0.148);
 }
 
+.navbar-toggler {
+  background-color: #212529;
+}
+
 .nav-link {
   color: #070707 !important;
   text-transform: uppercase;

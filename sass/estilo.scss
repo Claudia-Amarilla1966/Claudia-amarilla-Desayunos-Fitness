@@ -121,7 +121,9 @@ $justify-content-collapse: center;
     border-radius: $border-radius-navbar;
     border: $border-navbar;
 }
-
+.navbar-toggler{
+  background-color: #212529;
+}
 .nav-link {
     color: $color-nav-link;
     text-transform: $text-transform-nav-link;
