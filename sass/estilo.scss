@@ -396,6 +396,12 @@ $color-a-hover: #4b2a2a;
   text-shadow: $text-shadow-tituloqsoy;
   text-align: $text-align-tituloqsoy;
   padding: $padding-tituloqsoy;
+    &:hover{
+      transform:translate(50px) ;
+      transition: 5s;
+      color:#351a1a;
+      text-shadow: 0 0 5px rgb(74, 72, 72);
+    }
 }
 
 .container-quiensoy {
@@ -440,6 +446,10 @@ video {
   height: $height-video;
   border-radius: $border-radius-video;
   box-shadow: $box-shadow-video;
+    &:hover{
+      transform: scale(1.1);
+      transition: 5s;
+    }
 }
 
 a {
@@ -490,12 +500,24 @@ section {
   border-radius: $border-radius-img-fluid;
   box-shadow: $box-shadow-img-fluid;
   margin-bottom: $margin-bottom-img-fluid;
+    &:hover{
+      transform: scale(1.1);
+      transition: 2s;
+      box-shadow:0px 0px 5px 8px rgb(244, 240, 240);
+    }
 }
 
 .recetas1 {
   color: $color-recetas1;
   font-size: $font-size-recetas1;
   text-transform: $text-transform-recetas1;
+  font-weight: bold;
+    &:hover{
+    color:#256aaf;
+    text-shadow: 0 0 5px white;
+    font-weight: bold;
+    font-style: oblique;
+  }
 }
 
 .recetas2 {
@@ -504,6 +526,12 @@ section {
   font-size: $font-size-recetas2;
   text-shadow: $text-shadow-recetas2;
   text-align: $text-align-recetas2;
+  &:hover{
+    color:#256aaf;
+    text-shadow: 0 0 5px white;
+    font-weight: bold;
+    font-style: oblique;
+  }
 }
 
 .recetas {
