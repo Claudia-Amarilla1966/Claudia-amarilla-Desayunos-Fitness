@@ -79,6 +79,10 @@ header div {
   border: 1px solid rgba(31, 28, 28, 0.148);
 }
 
+.navbar-toggler {
+  background-color: #212529;
+}
+
 .nav-link {
   color: #070707 !important;
   text-transform: uppercase;
@@ -166,7 +170,8 @@ aside h3 {
   width: 100%;
   height: 120px;
   margin-bottom: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 
@@ -210,7 +215,8 @@ aside h3 {
 .main img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 .main .leer-mas {
@@ -233,6 +239,12 @@ aside h3 {
   text-shadow: 0 0 30px #6d6565;
   text-align: center;
   padding: 15px;
+}
+.tituloqsoy:hover {
+  transform: translate(50px);
+  transition: 5s;
+  color: #351a1a;
+  text-shadow: 0 0 5px rgb(74, 72, 72);
 }
 
 .container-quiensoy {
@@ -275,6 +287,10 @@ video {
   border-radius: 10px;
   box-shadow: 0 0 35px #4b2a2a;
 }
+video:hover {
+  transform: scale(1.1);
+  transition: 5s;
+}
 
 a {
   color: #070707;
@@ -302,12 +318,23 @@ section {
   box-shadow: 2px 2px 20px rgb(77, 75, 75);
   margin-bottom: 20px;
 }
-
+.img-fluid:hover {
+  transform: scale(1.1);
+  transition: 2s;
+  box-shadow: 0px 0px 5px 8px rgb(244, 240, 240);
+}
 
 .recetas1 {
   color: #070707;
   font-size: 25px;
   text-transform: uppercase;
+  font-weight: bold;
+}
+.recetas1:hover {
+  color: #256aaf;
+  text-shadow: 0 0 5px white;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 .recetas2 {
@@ -317,7 +344,12 @@ section {
   text-shadow: 1px 1px 5px rgb(52, 49, 49);
   text-align: center;
 }
-
+.recetas2:hover {
+  color: #256aaf;
+  text-shadow: 0 0 5px white;
+  font-weight: bold;
+  font-style: oblique;
+}
 
 .recetas {
   color: #070707;
@@ -392,7 +424,7 @@ li {
 }
 .container-contacto:hover {
   background-color: rgba(0, 0, 0, 0.655);
-  color: #2755c2;
+  color: #2755c2 #2755c2;
 }
 
 .h2-contacto {
@@ -436,6 +468,9 @@ li {
   border: none;
   border-bottom: 2px solid #2755c2;
   color: #fff;
+}
+.form-text::-moz-placeholder {
+  font-size: 1, 4rem;
 }
 .form-text::placeholder {
   font-size: 1, 4rem;
@@ -656,7 +691,8 @@ aside h3 {
   width: 100%;
   height: 120px;
   margin-bottom: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 
@@ -700,7 +736,8 @@ aside h3 {
 .main img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 .main .leer-mas {
@@ -925,6 +962,9 @@ li {
   border-bottom: 2px solid #2755c2;
   color: #fff;
 }
+.form-text::-moz-placeholder {
+  font-size: 1, 4rem;
+}
 .form-text::placeholder {
   font-size: 1, 4rem;
 }
@@ -1023,6 +1063,4 @@ section .color1 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */
