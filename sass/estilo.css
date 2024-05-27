@@ -424,7 +424,7 @@ li {
 }
 .container-contacto:hover {
   background-color: rgba(0, 0, 0, 0.655);
-  color: #2755c2;
+  color: #2755c2 #2755c2;
 }
 
 .h2-contacto {
