@@ -1,0 +1,25 @@
+// Estilo base
+.p-cuidados {
+    font-size: $font-size-p-cuidados;
+    font-weight: $font-weight-p-cuidados;
+    padding: $padding-p-cuidados;
+    margin: $margin-p-cuidados;
+    text-align: $text-align-p-cuidados;
+    background-color: $background-color-p-cuidados;
+    box-shadow: $box-shadow-p-cuidados;
+    font-style: $font-style-p-cuidados;
+    border-radius: $border-radius-p-cuidados;
+  
+    &:hover {
+      color: $color-p-cuidados-hover;
+      background-color: $background-color-p-cuidados-hover;
+    }
+  }
+  
+  // Estilo extendido
+  .p-cuidados-destacado {
+    @extend .p-cuidados;
+    font-weight: bold;
+    color: #FF5733; 
+  }
+  
