@@ -644,8 +644,8 @@ $color-container-contacto: #070707;
 $background-container-contacto: rgba(0, 0, 0, 0.141);
 $border-radius-container-contacto: 15px;
 $box-shadow-container-contacto: 0 0 30px black;
-$background-color-container-contacto-hover: rgba(0, 0, 0, 0.655);
-$color-container-contacto-hover:#2755c2;
+$background-color-container-contacto-hover: rgba(0, 0, 0, 0.454);
+$color-container-contacto-hover:#e9eaed;
 $font-size-h2-contacto: 25px;
 $margin-h2-contacto: 15px;
 $font-size-p-contacto: 18px;
@@ -664,7 +664,7 @@ $margin-p-contacto: 20px;
   
   &:hover {
     background-color: $background-color-container-contacto-hover;
-    color:$color-container-contacto-hover#2755c2 ;
+    color:$color-container-contacto-hover;
   }
 }
 
